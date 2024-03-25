@@ -1,0 +1,140 @@
+:root {
+   --lightBLU: rgb(205, 234, 244); 
+   --gray: rgb(123, 124, 139);
+   --lightGray:rgb(212, 213, 226);
+   --darkGray: rgb(43, 43, 44);
+}
+
+@font-face {
+   font-family: MyFont;
+   src: url(../static/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+* { 
+   padding: 5px;
+   margin: 5px;
+ /*  font-family: Arial, Helvetica, sans-serif; */
+   font-family: MyFont;
+}
+
+#webname {
+   background-color: var(--lightBLU);
+}
+
+.classA {
+   width: 45%;
+   display: inline-block;
+   vertical-align: top;
+}
+
+header {
+   background-color: var(--darkGray);
+} 
+
+nav a {
+   color: white;
+   text-decoration: none;
+   margin: -5px;
+   margin-right: 15px;    margin-right: 15px;
+   font-size: x-large;
+} 
+
+form * {
+   display: block;
+   width: 50%;
+   margin: auto;
+   padding-top: 10px;
+   text-align: center;
+}
+
+th {
+   padding: 12px;
+   background-color: var(--darkGray);
+   color: white;
+   width: fit-content;
+}
+
+table tr:nth-child(even) {
+   background-color: var(--lightGray);
+}
+
+table tr:hover {
+   background-color: var(--lightBLU);
+}
+
+form input[type=submit] {
+   background-color: var(--lightBLU);
+   border: 0px;
+   border-radius: 16px;
+   margin-top: 10px;
+}
+/*
+#FavList {
+   display: none;
+}*/
+#SeeMoreBTN{
+   background-color: var(--lightBLU);
+   border: 0px;
+   border-radius: 16px;
+   font-size:large;
+}
+
+#readLess, #longIntro {
+   display: none;
+}
+
+#readLess, #readMore {
+   font-style: italic;
+   background-color:var(--lightBLU);
+}
+
+#ValidateMsg {
+   width: max-content;
+   margin: auto;
+}
+
+#map {
+
+   height: 40vh;  /* 40% of the viewport height */
+}
+
+
+#funIMG {
+
+   width: 90%;
+ 
+   border-radius: 100%;
+ 
+ }
+ .mainFun {
+
+   display: flex;
+
+   flex-wrap: wrap;
+
+   flex-direction: row;
+
+}
+
+
+#item1, #item2, #item3, #item4 {
+
+   width: 40vw; /* 40% of the viewport width */
+
+   margin: auto;
+
+}
+
+
+nav a:hover {
+
+   background-color: var(--gray);
+
+}
+
+nav a.active {
+
+   background-color: var(--gray);
+
+}
+
